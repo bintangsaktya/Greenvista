@@ -1,0 +1,435 @@
+/* font */
+
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@400;500;700&display=swap');
+
+  :root {
+    --warna-hijau-utama: #133A1B;
+    --warna-kuning-mahal: #B28A5B;
+    --warna-abu-deskripsi: #A6A6A6;
+  }
+
+  body{
+    overflow-x: hidden;
+    max-width:100%;
+  }
+
+  h1{
+    font-family: 'Playfair Display';
+    shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-weight: 700 !important;
+    
+  }
+
+  h2{
+    font-family: 'Playfair Display';
+    /* shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+    font-weight: 700 !important;
+  }
+
+  h3{
+    font-family: 'Playfair Display';
+  
+    font-weight: 700 !important;
+  }
+
+  h6{
+    font-family: 'Poppins', sans-serif;
+    
+  }
+
+  p{
+    font-family: 'Poppins', sans-serif;
+  }
+
+  a{
+    all: unset;
+  }
+
+
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: center;
+    padding-top: 30px !important;
+  }
+  
+  
+  .pencarian {
+    margin-right: 15px;
+  }
+  
+
+.pencarian{
+    border-radius: 100px !important;
+    width : 13rem !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-size: .9rem !important;
+    font-family: Playfair Display;
+
+}
+
+.menu-nav{
+    font-family: Playfair Display;
+}
+
+.nav-logo{
+  width:150px;
+}
+
+/* SECTION 1 */
+
+#home{
+  height : 100%;
+  width:100%
+}
+
+#carouselExampleCaptions{
+    margin-top: 30px;
+}
+
+.carousel-inner .gambar-hero {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Untuk menjaga aspek rasio dan mengisi carousel */
+}
+
+.carousel-inner{
+  height: 500px; 
+  background-color: black;
+  border-radius: 13px;
+}
+
+.carousel-caption h1 {
+  text-align: left; /* Mengatur teks rata kiri */
+  margin-left: -120px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hidden-pic{
+  display: none;
+}
+
+/* SECTION 2 */
+
+#property {
+  height : 100%;
+  width:100%;
+  padding-top:100px;
+  padding-bottom: 100px;
+}
+
+#property h6{
+  letter-spacing: 2px;
+  color: var(--warna-hijau-utama);
+}
+
+#property a{
+  all: unset;
+}
+
+.pembungkus-card{
+  gap: 60px;
+}
+
+.property-card {
+  margin-top: 20px;
+  height: 400px;
+  border-radius: 16px;
+  position: relative;
+  width: 95%;
+  display: flex;
+  align-items: flex-end; 
+  justify-content : center;
+  overflow: hidden; 
+}
+
+.property-card h2, .property-card p {
+  color: white;
+}
+
+.property-card h2{
+  font-size: 25px
+}
+
+.property-card p {
+  font-size: 10px;
+}
+
+.inside-property-card {
+  z-index: 99;
+  border-radius: 16px;
+  position: absolute; /* Mengubah posisi menjadi absolute */
+  background-color: var(--warna-hijau-utama);
+  display: flex;
+  width: 95%; /* Menggunakan width 100% agar card menutupi gambar */
+  align-items: center;
+  height:80px;
+  bottom: 10px; 
+
+  padding-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.inside-property-card:hover{
+  background-color: #282828;
+   
+}
+
+.img-card {
+  width: 100%; /* Menyesuaikan lebar gambar dengan elemen .property-card */
+  height: 100%; /* Menyesuaikan tinggi gambar dengan elemen .property-card */
+  object-fit: cover; /* Menjaga aspek ratio gambar */
+  object-position: center bottom; /* Posisi gambar dalam elemen */
+  border-radius: 16px;
+}
+
+.div-bulat {
+  width: 50px; /* Lebar div */
+  height: 50px; /* Tinggi div */
+  background-color: var(--warna-kuning-mahal); /* Warna latar belakang */
+  border-radius: 50%; /* Untuk membuatnya bulat */
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+}
+
+.pembungkus-card{
+  display: flex;
+}
+
+
+.tombol-play {
+  color: white; /* Warna ikon */
+  font-size: 23px; /* Ukuran ikon */
+}
+
+
+/* SECTION 3 */
+
+#value{
+  padding-top: 30px;
+  padding-bottom: 100px;
+  height: 100%;
+  width: 100%;
+}
+
+
+#value h6{
+  letter-spacing: 2px;
+  color: var(--warna-hijau-utama);
+}
+
+#value .side-description{
+  color: var(--warna-abu-deskripsi);
+}
+
+.card-wrapper{
+  margin-top: 40px;
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.value-card{
+  padding-left: 30px;
+  padding-right: 30px;
+  
+  width:400px;
+  height:350px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  transition: box-shadow 0.3s ease;
+}
+
+.value-card:hover{
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .2);
+}
+
+.top-value{
+  padding-top:30px;
+  padding-bottom:30px;
+  display:flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  gap:40px;
+}
+
+.bottom-value{
+  padding-bottom: 0px;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 984px) {
+  .nav-logo{
+    width:100px !important;
+  }
+
+  h6{
+    font-size: .6rem !important;
+
+  }
+
+/* SECTION 1 */
+  .carousel-inner{
+    height: 500px; 
+    background-color: black;
+    border-radius: 13px;
+  }
+
+  .carousel-caption h1 {
+    margin-left: 0px;
+    font-size: 20px;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+
+  .carousel-inner .gambar-hero {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Untuk menjaga aspek rasio dan mengisi carousel */
+  }
+
+
+  /* SECTION 2 */
+    .property-card {
+      height: 500px;
+      border-radius: 16px;
+      position: relative;
+      width: 300px;
+      display: flex;
+      align-items: flex-end; 
+      justify-content : center;
+      
+    }
+
+    .pembungkus-card{
+      display: flex;
+      gap: 2
+      
+      
+      0px;
+      width:100%;
+      height:100%;
+      /* background-color: red; */
+      overflow-x: scroll !important;
+      overflow-y: hidden;
+    }
+  
+
+  .inside-property-card {
+    z-index: 99;
+    border-radius: 16px;
+    position: absolute; /* Mengubah posisi menjadi absolute */
+    background-color: var(--warna-hijau-utama);
+    display: flex;
+    width: 95%; 
+    align-items: center;
+    height:80px;
+    bottom: 10px; 
+    padding-right: 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  .property-bawah{
+    /* width:200vh; */
+    overflow-x: scroll;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .nav-logo{
+    width:100px !important;
+  }
+
+  h6{
+    font-size: .3rem;
+
+  }
+
+  h6{
+    font-size: .6rem !important;
+
+  }
+
+  /* SECTION 1 */
+  #carouselExampleCaptions{
+    
+  }
+
+
+  .carousel-inner{
+    height: 550px; 
+    background-color: black;
+    border-radius: 13px;
+  }
+
+  .carousel-caption h1 {
+    margin-left: 0px;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 205px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
+
+  .carousel-inner .gambar-hero {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Untuk menjaga aspek rasio dan mengisi carousel */
+  }
+
+  
+  /* SECTION 2 */
+  #property{
+    /* margin-top: -90px; */
+    padding-bottom: 100px;
+  }
+
+  .property-card {
+    height: 500px;
+    border-radius: 16px;
+    position: relative;
+    width: 260px;
+    display: flex;
+    align-items: flex-end; 
+    justify-content : center;
+    
+  }
+
+  .inside-property-card {
+    z-index: 99;
+    border-radius: 16px;
+    position: absolute; /* Mengubah posisi menjadi absolute */
+    background-color: var(--warna-hijau-utama);
+    display: flex;
+    width: 95%; 
+    align-items: center;
+    height:80px;
+    bottom: 10px; 
+    padding-right: 20px;
+    transition: background-color 0.3s ease;
+  }
+
+  .pembungkus-card{
+    display: flex;
+    gap: 20px;
+    width:100%;
+    height:100%;
+    /* background-color: red; */
+    overflow-x: scroll !important;
+    overflow-y: hidden;
+  }
+
+ /* SECTION 3 */
+
+  
+}
