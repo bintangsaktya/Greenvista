@@ -615,6 +615,7 @@ footer {
   
   #megaproject{
     height: 100vh;
+    padding-bottom : 50px;
   }
 
   #megaproject .side-description{
