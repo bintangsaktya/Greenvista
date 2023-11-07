@@ -413,13 +413,9 @@ footer {
   width: 182px;
 }
 
-.wrapper-footer{
-  
-}
-
 
 .wrapper-footer .footer-widget {
-  margin: 0 15px 50px;
+  margin-top: 0 50px;
   padding: 0 12px;
 }
 
@@ -487,15 +483,6 @@ footer {
 .top-footer{
   width: 100%;
   
-}
-
-.right{
-  width:75%;
-  display: flex;
-}
-
-.left{
-  width: 25%;
 }
 
 
