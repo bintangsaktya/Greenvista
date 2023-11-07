@@ -299,6 +299,11 @@ footer {
   width: 182px;
 }
 
+.wrapper-footer{
+  
+}
+
+
 .wrapper-footer .footer-widget {
   margin: 0 15px 50px;
   padding: 0 12px;
@@ -358,6 +363,20 @@ footer {
   font-size: 16px;
   border-top: 1px solid white;
   padding-top: 13px;
+}
+
+.top-footer{
+  width: 100%;
+  
+}
+
+.right{
+  width:75%;
+  display: flex;
+}
+
+.left{
+  width: 25%;
 }
 
 
