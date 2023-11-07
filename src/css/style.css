@@ -343,6 +343,11 @@ footer {
 
 .footer-widget .links {
   list-style: none;
+  
+}
+
+.links{
+  /* width: 70px; */
 }
 
 .footer-widget .links li a {
