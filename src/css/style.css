@@ -435,7 +435,7 @@ footer {
     .pembungkus-card{
       display: flex;
       gap: 20px;
-      width:190%;
+      
       height:100%;
       /* background-color: red; */
       overflow-x: scroll !important;
