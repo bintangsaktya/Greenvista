@@ -516,14 +516,17 @@ footer {
     height: 500px; 
     background-color: black;
     border-radius: 13px;
+    position: absolute;
   }
 
   .carousel-caption h1 {
     margin-left: 0px;
     font-size: 20px;
     text-align: center;
+    padding-bottom: 25vh;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   }
+
 
   .carousel-inner .gambar-hero {
     width: 100%;
@@ -656,7 +659,7 @@ footer {
     margin-left: 0px;
     font-size: 20px;
     text-align: center;
-    padding-bottom: 205px;
+    padding-bottom: 40vh;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
   }
 
