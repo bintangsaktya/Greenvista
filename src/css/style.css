@@ -614,7 +614,7 @@ footer {
   /* SECTION 4 */
   
   #megaproject{
-    height: 100%;
+    height: 100vh;
   }
 
   #megaproject .side-description{
