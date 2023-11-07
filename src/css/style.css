@@ -725,5 +725,9 @@ footer {
  .gambar-kecil{
   height: 100% !important;
  }
+
+ .keterangan{
+  right: -100px;
+ }
   
 }
