@@ -472,12 +472,9 @@ footer {
     /* overflow-x: scroll !important; */
   }
 
-  .value-card-scroller{
-    width: 200%;
-    overflow-x: scroll !important;
-    overflow-y :hidden !important;
-  }
 
+
+  .value-card-scroller{
   .card-wrapper{
     display: flex;
     width: unset;
@@ -496,7 +493,7 @@ footer {
   }
 
   .value-card{
-    min-width: 400px;
+    min-width: 300px;
   }
 
 
