@@ -360,6 +360,8 @@
   border-radius: 15px;
 }
 
+
+
 .keterangan {
   position: absolute; /* Mengatur elemen h6 menjadi posisi absolut */
   top: 80%; /* Menengahkan vertikalnya */
@@ -729,5 +731,8 @@ footer {
   text-align: right;
  }
 
+ .gambar-kecil{
+  height: 100% !important;
+ }
   
 }
