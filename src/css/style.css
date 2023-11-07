@@ -499,7 +499,7 @@ footer {
 }
 
 
-/* MOBILE */
+/* MEDIA QUERY */
 
 @media (max-width: 984px) {
   .nav-logo{
@@ -614,7 +614,7 @@ footer {
   /* SECTION 4 */
   
   #megaproject{
-    height: 140vh;
+    height: 100%;
   }
 
   #megaproject .side-description{
