@@ -388,7 +388,6 @@ footer {
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  position: relative;
   width: 100%;
   height: auto;
   padding-top: 60px;
@@ -397,26 +396,22 @@ footer {
 .container-footer {
   width: 100%;
   max-width: 1320px;
-  margin: 0 auto;
-  padding: 0 80px;
-
 }
 
 .wrapper-footer {
   display: flex;
-  justify-content: space-between;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .footer-logo {
   width: 182px;
 }
 
-
 .wrapper-footer .footer-widget {
-  margin-top: 0 50px;
-  padding: 0 12px;
+  margin: 0 0 50px;
+
 }
 
 .wrapper-footer .footer-widget .footer-logo {
@@ -453,23 +448,12 @@ footer {
 
 .footer-widget .links {
   list-style: none;
-  
-}
-
-.links{
-  /* width: 70px; */
 }
 
 .footer-widget .links li a {
   text-decoration: none;
   color: white;
-  line-height: 4;
-  display: flex;
-  justify-content: space-between;
-}
-
-.links1 {
-  padding-left: 299px;
+  line-height: 3;
 }
 
 .copyright-wrapper p {
@@ -478,11 +462,6 @@ footer {
   font-size: 16px;
   border-top: 1px solid white;
   padding-top: 13px;
-}
-
-.top-footer{
-  width: 100%;
-  
 }
 
 
@@ -613,6 +592,29 @@ footer {
     flex-direction: column;
   }
 
+  /*FOOTER*/
+
+  .wrapper-footer {
+    justify-content: space-between;
+  }
+
+  .footer-logo {
+    width: 134px;
+  }
+  
+  .wrapper-footer .footer-widget .footer-logo {
+    margin-bottom: 30px;
+    vertical-align: middle;
+  }
+  
+  
+  .copyright-wrapper p {
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-size: 12px;
+    border-top: 1px solid white;
+    padding-top: 13px;
+  }
 }
 
 
@@ -733,5 +735,37 @@ footer {
  .keterangan{
   right: -90px;
  }
+
+ /*FOOTER*/
+ .wrapper-footer {
+  justify-content: space-evenly;
+ }
+
+ .footer-widget {
+  text-align: center;
+ }
+
+ .footer-widget .links li a {
+  line-height: 3;
+  display: flex;
+  font-size: 8px;
+}
+
+.wrapper-footer .footer-widget .footer-logo {
+  width: 100px;
+}
+
+.wrapper-footer .footer-widget .desc {
+  font-size: 12px;
+}
+
+.medsos{
+  padding: 0 60px;
+  justify-content: center;
+}
+
+.copyright-wrapper p{
+  font-size: 8px;
+}
   
 }
