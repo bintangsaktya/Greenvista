@@ -222,6 +222,12 @@ padding-top: 13px;
 
 /* MEDIA QUERY */
 
+@media(max-width:1020px) {
+  .img-bottom{
+    padding-top: 3%;
+  }
+}
+
 @media (max-width: 984px) {
 .nav-logo{
   width:100px !important;
@@ -297,7 +303,7 @@ font-size: 12px;
 }
 
 .medsos{
-padding: 0 60px;
+padding-left: 25%;
 justify-content: center;
 }
 
@@ -328,5 +334,9 @@ font-size: 8px;
 @media (max-width:767px){
   .space{
     padding: 0;
+  }
+
+  .img-bottom{
+    padding-top: 0;
   }
 }

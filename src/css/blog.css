@@ -189,7 +189,7 @@ text-decoration: none;
 }
 
 .medsos {
-padding: 0;
+padding: 0%;
 }
 
 .footer-widget .links {
@@ -227,6 +227,10 @@ h6{
 
 .wrapper-footer {
   justify-content: space-between;
+}
+
+.medsos {
+  padding: 0%;
 }
 
 .footer-logo {
@@ -288,7 +292,7 @@ font-size: 12px;
 }
 
 .medsos{
-padding: 0 60px;
+padding-left: 25%;
 justify-content: center;
 }
 
@@ -297,3 +301,5 @@ font-size: 8px;
 }
 
 }
+
+
