@@ -1,0 +1,352 @@
+/* font */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+  --warna-hijau-utama: #133A1B;
+  --warna-kuning-mahal: #B28A5B;
+  --warna-abu-deskripsi: #A6A6A6;
+}
+
+body{
+  overflow-x: hidden;
+  max-width:100%;
+}
+
+h1{
+  font-family: 'Playfair Display';
+  font-weight: 700 !important;
+}
+
+h2{
+  font-family: 'Playfair Display';
+  /* shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+  font-weight: 700 !important;
+}
+
+h3{
+  font-family: 'Playfair Display';
+
+  font-weight: 700 !important;
+}
+
+h6{
+  font-family: 'Poppins', sans-serif;
+  
+}
+
+p{
+  font-family: 'Poppins', sans-serif;
+}
+
+a{
+  all: unset;
+}
+
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between !important;
+  align-items: center;
+  padding-top: 30px !important;
+}
+
+
+.pencarian {
+  margin-right: 15px;
+}
+
+
+.pencarian{
+  border-radius: 100px !important;
+  width : 13rem !important;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-size: .9rem !important;
+  font-family: Playfair Display;
+
+}
+
+.menu-nav{
+  font-family: Playfair Display;
+}
+
+.nav-logo{
+width:150px;
+}
+
+/*Main*/
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#pic{
+  margin-top: 5%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  border-radius: 1.5rem;
+  display: flex;
+}
+
+.pictext{
+  margin-top: 4%;
+  margin-left: 5%;
+}
+
+.pictext h4{
+  font-size: medium;
+  color: white;
+}
+
+.pictext h1{
+  color: white;
+}
+
+.grid{
+  margin-top: 8%;
+  display: grid;
+}
+
+.price h4{
+  font-size: medium;
+  margin-top: 2%;
+}
+
+.enterprice input{
+  width: 90%;
+  line-height: 50px;
+  outline: none;
+  padding: 0 30px;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.pinjaman{
+  width: 70%;
+  border-radius: 20px;
+  padding: 4px 15px;
+  background-color: #133A1B;
+}
+
+.pinjaman h4{
+  margin-top: 2%;
+  font-size: medium;
+  text-align: center;
+  color: white;
+}
+
+.pinjaman input{
+  width: 100%;
+  line-height: 40px;
+  outline: none;
+  padding: 0 30px;
+  border-radius: 10px;
+}
+
+.text p{
+  font-style: italic;
+  font-size: medium;
+  margin-top: 8%;
+  margin-bottom: 8%;
+}
+
+.text a{
+  color: blue;
+  text-decoration: none;
+}
+
+.text a:hover{
+  color: red;
+}
+
+/*FOOTER DESKTOP*/
+
+footer {
+background-color: #133A1B;
+font-family: 'Playfair Display';
+color: white;
+display: flex;
+justify-content: flex-end;
+flex-direction: column;
+width: 100%;
+height: auto;
+padding-top: 60px;
+}
+
+.container-footer {
+width: 100%;
+max-width: 1320px;
+}
+
+.wrapper-footer {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+.footer-logo {
+width: 182px;
+}
+
+.wrapper-footer .footer-widget {
+margin: 0 0 50px;
+
+}
+
+.wrapper-footer .footer-widget .footer-logo {
+margin-bottom: 30px;
+vertical-align: middle;
+}
+
+.wrapper-footer .footer-widget p {
+margin-bottom: 30px;
+font-family: 'Playfair Display';
+font-size: 16px;
+line-height: 24px;
+}
+
+.wrapper-footer .footer-widget .medsos {
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+.wrapper-footer .footer-widget .medsos li {
+list-style: none;
+}
+
+.wrapper-footer .footer-widget .medsos li a {
+width: 40px;
+display: flex;
+text-decoration: none;
+}
+
+.medsos {
+padding: 0;
+}
+
+.footer-widget .links {
+list-style: none;
+}
+
+.footer-widget .links li a {
+text-decoration: none;
+color: white;
+line-height: 3;
+}
+
+.copyright-wrapper p {
+text-align: center;
+font-family: 'Playfair Display';
+font-size: 16px;
+border-top: 1px solid white;
+padding-top: 13px;
+}
+
+
+/* MEDIA QUERY */
+
+@media (max-width: 984px) {
+.nav-logo{
+  width:100px !important;
+}
+
+h6{
+  font-size: .6rem !important;
+
+}
+
+/*FOOTER*/
+
+.wrapper-footer {
+  justify-content: space-between;
+}
+
+.footer-logo {
+  width: 134px;
+}
+
+.wrapper-footer .footer-widget .footer-logo {
+  margin-bottom: 30px;
+  vertical-align: middle;
+}
+
+
+.copyright-wrapper p {
+  text-align: center;
+  font-family: 'Playfair Display';
+  font-size: 12px;
+  border-top: 1px solid white;
+  padding-top: 13px;
+}
+}
+
+
+@media (max-width: 480px) {
+.nav-logo{
+  width:100px !important;
+}
+
+h6{
+  font-size: .3rem;
+
+}
+
+h6{
+  font-size: .6rem !important;
+
+}
+
+.pinjaman {
+  margin-top: 5%;
+}
+
+/*FOOTER*/
+.wrapper-footer {
+justify-content: space-evenly;
+}
+
+.footer-widget {
+text-align: center;
+}
+
+.footer-widget .links li a {
+line-height: 3;
+display: flex;
+font-size: 8px;
+}
+
+.wrapper-footer .footer-widget .footer-logo {
+width: 100px;
+}
+
+.wrapper-footer .footer-widget .desc {
+font-size: 12px;
+}
+
+.medsos{
+padding: 0 60px;
+justify-content: center;
+}
+
+.copyright-wrapper p{
+font-size: 8px;
+}
+
+}
+
+@media (max-width: 767px) {
+  .space{
+    padding: 20px;
+  }
+
+  .pinjaman{
+    padding-bottom: 20px;
+  }
+}
