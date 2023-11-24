@@ -400,7 +400,7 @@
 }
 
 .small-desc{
-  font-size: 20px;
+  font-size: 100%;
 }
 
 
@@ -795,3 +795,4 @@ footer {
 }
   
 }
+
