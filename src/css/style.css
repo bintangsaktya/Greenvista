@@ -379,6 +379,32 @@
   width: 100%; 
 }
 
+/*SECTION MAP*/
+.map{
+  background-color: #133A1B;
+  width: 102%;
+}
+
+.map-img{
+  width: 70%;
+  height: 70%;
+}
+
+/*SECTION BLOGS*/
+.blogs-con{
+  width: 120%;
+}
+
+.img-blog{
+  width: 50%;
+}
+
+.small-desc{
+  font-size: 20px;
+}
+
+
+
 /*FOOTER DESKTOP*/
 
 footer {
@@ -769,5 +795,3 @@ footer {
 }
   
 }
-
-/*TAMBAHAN FOOTER*/
