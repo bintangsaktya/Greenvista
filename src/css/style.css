@@ -79,6 +79,10 @@
   width:150px;
 }
 
+.spacing-navbar{
+  padding-left: 10%;
+}
+
 /* SECTION 1 */
 
 #home{
@@ -269,6 +273,7 @@
 /* SECTION 4 */
 
 #megaproject{
+  position: relative;
   padding-top: 30px;
   padding-bottom: 100px;
   height: 100%;
@@ -380,9 +385,11 @@
 }
 
 /*SECTION MAP*/
+
 .map{
   background-color: #133A1B;
   width: 102%;
+  margin-bottom: 10%;
 }
 
 .map-img{
@@ -391,6 +398,7 @@
 }
 
 /*SECTION BLOGS*/
+
 .blogs-con{
   width: 120%;
 }
@@ -412,7 +420,6 @@ footer {
   font-family: 'Playfair Display';
   color: white;
   display: flex;
-  justify-content: flex-end;
   flex-direction: column;
   width: 100%;
   height: auto;
@@ -469,7 +476,7 @@ footer {
 }
 
 .medsos {
-  padding: 0;
+  padding-left: 0%;
 }
 
 .footer-widget .links {
@@ -774,7 +781,7 @@ footer {
  .footer-widget .links li a {
   line-height: 3;
   display: flex;
-  font-size: 8px;
+  font-size: 12px;
 }
 
 .wrapper-footer .footer-widget .footer-logo {
@@ -782,17 +789,106 @@ footer {
 }
 
 .wrapper-footer .footer-widget .desc {
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .medsos{
-  padding: 0 60px;
-  justify-content: center;
+  padding-left: 25%;
 }
 
 .copyright-wrapper p{
-  font-size: 8px;
+  font-size: 12px;
 }
   
 }
+
+/*MEDIA QUERY TAMBAHAN*/
+
+/*NAVBAR*/
+
+@media (max-width: 1199px){
+  .spacing-navbar{
+    padding-left: 5%;
+  }
+}
+@media (max-width: 991px){
+  .spacing-navbar{
+    padding-left: 100%;
+  }
+}
+
+/*MAP*/
+@media (max-width: 991px){
+  .map{
+    width: 101.5%;
+  }
+}
+
+@media (max-width: 767px){
+  .map{
+    width: 100%;
+  }
+}
+
+/*BLOGS*/
+@media (max-width: 991px) {
+  .big-blogs{
+    display: none !important;
+  }
+
+  .heading{
+    font-size: 150%;
+  }
+}
+
+/*FOOTER*/
+@media (max-width: 767px) {
+  .wrapper-footer {
+    justify-content: space-evenly;
+   }
+  
+   .footer-widget {
+    text-align: center;
+   }
+  
+   .footer-widget .links li a {
+    line-height: 3;
+    display: flex;
+    font-size: 12px;
+  }
+  
+  .wrapper-footer .footer-widget .footer-logo {
+    width: 150px;
+  }
+  
+  .wrapper-footer .footer-widget .desc {
+    font-size: 15px;
+  }
+  
+  .medsos{
+    padding-left: 4%;
+  }
+  
+.container-links{
+  margin-left: 20%;
+}
+
+  .copyright-wrapper p{
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .medsos{
+    padding-left: 23%;
+  }
+
+  .container-links{
+    margin-left: 0%;
+    margin-right: 2%;
+  }
+
+}
+
 
