@@ -76,6 +76,10 @@ a{
 width:150px;
 }
 
+.spacing-navbar{
+  padding-left: 10%;
+}
+
 /*Main*/
 
 main{
@@ -349,4 +353,69 @@ font-size: 8px;
   .pinjaman{
     padding-bottom: 20px;
   }
+}
+
+/*MEDIA QUERY TAMBAHAN*/
+
+/*NAVBAR*/
+
+@media (max-width: 1199px){
+  .spacing-navbar{
+    padding-left: 5%;
+  }
+}
+@media (max-width: 991px){
+  .spacing-navbar{
+    padding-left: 100%;
+  }
+}
+
+/*FOOTER*/
+@media (max-width: 767px) {
+  .wrapper-footer {
+    justify-content: space-evenly;
+   }
+  
+   .footer-widget {
+    text-align: center;
+   }
+  
+   .footer-widget .links li a {
+    line-height: 3;
+    display: flex;
+    font-size: 12px;
+  }
+  
+  .wrapper-footer .footer-widget .footer-logo {
+    width: 150px;
+  }
+  
+  .wrapper-footer .footer-widget .desc {
+    font-size: 15px;
+  }
+  
+  .medsos{
+    padding-left: 4%;
+  }
+  
+.container-links{
+  margin-left: 20%;
+}
+
+  .copyright-wrapper p{
+    font-size: 10px;
+  }
+
+}
+
+@media (max-width: 575px) {
+  .medsos{
+    padding-left: 23%;
+  }
+
+  .container-links{
+    margin-left: 0%;
+    margin-right: 2%;
+  }
+
 }
