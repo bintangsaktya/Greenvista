@@ -317,7 +317,13 @@ font-size: 8px;
 
 }
 
-@media (max-width:1020){
+@media (max-width: 1199px){
+  .img-bottom{
+    padding: 3.5%;
+  }
+}
+
+@media (max-width:1020px){
   .detail-img{
     width: 50%;
     height: 50%;
@@ -342,6 +348,7 @@ font-size: 8px;
 
   .img-bottom{
     padding-top: 0;
+    padding: 0;
   }
 }
 
